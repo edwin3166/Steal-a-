@@ -2,13 +2,6 @@
 -- ZZZZ HUB 6 took 40 hours :D - OPTIMIZED VERSION
 --=========================================================
 
--- Anti-Skid Protection & Obfuscation (Optimized)
-_G._0x4A2B = {[1]="\108\111\99\97\108",[2]="\103\97\109\101",[3]="\71\101\116\83\101\114\118\105\99\101",[4]="\80\108\97\121\101\114\115",[5]="\76\111\99\97\108\80\108\97\121\101\114"}
-_G._0x3F8C = function(_0x1A2B) 
-    return _G._0x4A2B[_0x1A2B] or ""
-end
-_G._0x7E9D = _G._0x3F8C(1) .. " " .. _G._0x3F8C(2) .. " = " .. _G._0x3F8C(2) .. ":" .. _G._0x3F8C(3) .. "(" .. _G._0x3F8C(4) .. "):" .. _G._0x3F8C(5) .. "()"
-
 -- Global variable declarations to reduce local variable usage
 _G.Services = {
     Players = game:GetService("Players"),
